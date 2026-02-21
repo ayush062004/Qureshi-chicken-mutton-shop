@@ -1,0 +1,80 @@
+.admin-login,
+.admin-page {
+  min-height: 90vh;
+  background: #fff8f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card,
+.admin-card {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.login-card h2,
+.admin-card h2 {
+  margin-bottom: 20px;
+  color: #3a2e25;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background: #3a2e25;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.admin-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.admin-row input {
+  width: 90px;
+  padding: 5px;
+}
+
+.save-btn {
+  width: 100%;
+  padding: 12px;
+  background: #b8860b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.logout-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}

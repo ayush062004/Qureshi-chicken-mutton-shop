@@ -1,0 +1,99 @@
+
+.contact-page {
+  background: #fff8f0;   /* your theme color */
+  min-height: 90vh;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  background: white;
+  width: 100%;
+  max-width: 1100px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  border: 1px solid #f1e6d9;
+}
+
+.contact-info {
+  padding: 50px;
+}
+
+.contact-info h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #3a2e25;   /* dark brown tone */
+}
+
+.info-box {
+  margin-bottom: 25px;
+}
+
+.info-box h4 {
+  margin-bottom: 5px;
+  color: #b8860b;   /* premium gold */
+}
+
+.info-box p {
+  color: #555;
+}
+
+/* Buttons */
+.contact-buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+.call-btn,
+.whatsapp-btn {
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.call-btn {
+  background: #3a2e25;
+  color: white;
+}
+
+.call-btn:hover {
+  background: #5a4436;
+}
+
+.whatsapp-btn {
+  background: #25D366;
+  color: white;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebe5d;
+}
+
+/* Map */
+.map-box {
+  height: 100%;
+  min-height: 450px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info {
+    padding: 30px;
+  }
+
+  .map-box {
+    height: 300px;
+  }
+}
